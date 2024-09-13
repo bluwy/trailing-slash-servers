@@ -2,7 +2,9 @@
 
 See how different servers handle serving HTML files and trailing slashes.
 
-The format follows https://github.com/slorber/trailing-slash-guide
+The format follows https://github.com/slorber/trailing-slash-guide.
+
+Check out my blog to learn more about trailing slashes! https://bjornlu.com/blog/trailing-slash-for-frameworks
 
 ```
 website
