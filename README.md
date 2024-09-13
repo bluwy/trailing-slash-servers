@@ -61,7 +61,7 @@ http {
     server_name  localhost;
 
     location / {
-      root   /Users/bjorn/Work/repros/trailing-slash-test/website;
+      root   /Users/bjorn/Work/oss/trailing-slash-servers/website;
     }
   }
 }
