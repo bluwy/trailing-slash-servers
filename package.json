@@ -1,0 +1,16 @@
+{
+	"type": "module",
+	"scripts": {
+		"e": "node express.js",
+		"s": "sirv website --port 3002",
+		"h": "http-server website --port 3003",
+		"d": "file-server website/ --port 3004",
+		"p": "python3 -m http.server 3005 --directory website",
+		"a": "httpd -d trailing-slash"
+	},
+	"dependencies": {
+		"express": "^5.0.0",
+		"http-server": "^14.1.1",
+		"sirv-cli": "^2.0.2"
+	}
+}
