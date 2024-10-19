@@ -9,7 +9,7 @@
 		"a": "httpd -d trailing-slash"
 	},
 	"dependencies": {
-		"express": "^5.0.0",
+		"express": "^5.0.1",
 		"http-server": "^14.1.1",
 		"sirv-cli": "^2.0.2"
 	}
