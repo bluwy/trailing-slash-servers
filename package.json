@@ -2,6 +2,7 @@
 	"type": "module",
 	"scripts": {
 		"e": "node express.js",
+		"e:html-extensions": "HTML_EXTENSIONS=true node express.js",
 		"s": "sirv website --port 3002",
 		"h": "http-server website --port 3003",
 		"d": "file-server website/ --port 3004",
