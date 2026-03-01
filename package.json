@@ -1,4 +1,6 @@
 {
+	"name": "trailing-slash-servers",
+	"private": true,
 	"type": "module",
 	"scripts": {
 		"express": "node express.js",
@@ -10,7 +12,7 @@
 		"apache": "httpd -d trailing-slash -D FOREGROUND"
 	},
 	"dependencies": {
-		"express": "^5.2.0",
+		"express": "^5.2.1",
 		"http-server": "^14.1.1",
 		"sirv-cli": "^2.0.2"
 	}
